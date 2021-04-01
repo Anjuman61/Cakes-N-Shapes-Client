@@ -1,0 +1,29 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(168, 139, 139, 0.685);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+   
+    color: #141414;
+    display: block;
+  }
+
+  .addProductContainer{
+     display: flex;
+
+  }
+  .sidenav a:hover {
+    color: #d18c8c;
+  }
+  .product-table{
+      margin-left: 220px;
+  }

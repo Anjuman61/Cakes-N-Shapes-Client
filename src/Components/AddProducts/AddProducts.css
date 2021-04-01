@@ -1,0 +1,48 @@
+
+input{
+ 
+  width: 300px;
+  height: 50px;
+  padding: 12px;
+  border: 1px solid rgb(228, 222, 198);
+  border-radius: 4px;
+}
+.addProductForm{
+    border: 1px solid gray;
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+ margin:50px 50px 0px 250px;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 10px;
+  
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(168, 139, 139, 0.685);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+   
+    color: #141414;
+    display: block;
+  }
+
+  .addProductContainer{
+     display: flex;
+
+  }
+  .sidenav a:hover {
+    color: #d18c8c;
+  }
