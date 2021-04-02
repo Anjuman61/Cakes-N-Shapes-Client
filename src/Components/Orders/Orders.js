@@ -1,7 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { UserContext } from '../../App';
 import './Orders.css';
-import moment from 'moment'
+import moment from 'moment';
+import { Button } from 'react-bootstrap';
 
 const Orders = () => {
     const [orders, setOrders] = useState([])
@@ -29,6 +30,7 @@ const Orders = () => {
                     <p>Order Date: {moment(orders.date).format('MMMM Do YYYY')} </p>
                 </div>)
             }
+            <Button>Confirm</Button>
 
         </div>
     );

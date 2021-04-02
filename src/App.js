@@ -18,6 +18,7 @@ import CheckOut from './Components/CheckOut/CheckOut';
 import LogIn from './Components/LogIn/LogIn';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Orders from './Components/Orders/Orders';
+import NoMatch from './Components/NoMatch/NoMatch';
 
 export const ShopContext = createContext();
 export const UserContext = createContext();
@@ -66,6 +67,9 @@ function App() {
             <PrivateRoute path="/orders">
               <Orders />
             </PrivateRoute>
+            <Route path="*">
+              <NoMatch />
+            </Route>
           </Switch>
         </Router>
 
