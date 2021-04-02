@@ -9,10 +9,6 @@ Main features used in this this project are react route, react private route , f
 
 Other used features are react bootstrap, context API, Font Awesome,moment js etc.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### Components
 Components made for this projects are Heading, Home, Login,cakeShop,ManageProduct,ProductDetails,AddProducts, NoMatch.
